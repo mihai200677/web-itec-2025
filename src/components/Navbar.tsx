@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { ShoppingBag, Sun, Moon } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useTheme } from '../context/ThemeContext';
-import '../styles/Navbar.css';
+import '../styles/NavBar.css';
 import logoImage from '../images/logo.png'; 
 
 function Navbar() {
