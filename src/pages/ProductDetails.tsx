@@ -112,7 +112,7 @@ const products = {
 function ProductDetails() {
   const { id } = useParams<{ id: string }>();
   const { addToCart } = useCart();
-  const product = products[id as keyof typeof products];
+  const product = products[Number(id) as keyof typeof products];
 
   if (!product) {
     return <div>Product not found</div>;

@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowRight, Music2, Shirt, Globe } from 'lucide-react';
+import { ArrowRight, Shirt, Globe, Music2Icon } from 'lucide-react';
 import '../styles/Home.css';
 
 function Home() {
-  const navigate = useNavigate(); // Add this line to define navigate
+  const navigate = useNavigate();
   const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -70,7 +70,7 @@ function Home() {
           </div>
           <div className="home-features-grid">
             <motion.div whileHover={{ y: -10 }} className="home-feature-card">
-              <Music2 className="home-feature-icon" />
+            <Music2Icon className="home-feature-icon" />
               <h3 className="home-feature-title">Music Inspired</h3>
               <p className="home-feature-text">
                 Every piece channels the raw energy of urban life—graffiti, concrete, motion—fused with the rhythm, emotion, and attitude of music. 
@@ -132,7 +132,7 @@ function Home() {
       whileHover={{ y: -10 }}
       className="home-product-card"
       onClick={() => navigate(`/product/${product.id}`)} 
-      style={{ cursor: 'pointer' }} // Add pointer cursor
+      style={{ cursor: 'pointer' }} 
     >
       <div className="home-product-image">
         <img src={product.image} alt={product.name} />

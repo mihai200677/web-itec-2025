@@ -43,7 +43,7 @@ function About() {
           <Shirt className="about-icon" />
           <h3 className="about-card-title">Street Style</h3>
           <p className="about-card-text">
-          We’re not chasing trends—we’re repping identity. Whether it’s Bronx hip-hop, Paris street fashion, or Craiova underground, our drops reflect the soul of the city. It’s fashion with attitude, music with motion, and a look that always speaks loud.
+          We’re not chasing trends—we’re repping identity. Whether it’s Bronx hip-hop, Paris street fashion, our drops reflect the soul of the city. It’s fashion with attitude, music with motion, and a look that always speaks loud.
           </p>
         </motion.div>
 

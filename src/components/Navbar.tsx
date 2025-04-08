@@ -35,6 +35,7 @@ function Navbar() {
             <Link to="/shop" className="nav-link">Shop</Link>
             <Link to="/about" className="nav-link">About</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
+            <Link to="/login" className='nav-link'>Login</Link>
             
             <button onClick={toggleTheme} className="theme-toggle">
               {isDark ? <Sun className="sun-icon" /> : <Moon className="moon-icon" />}
