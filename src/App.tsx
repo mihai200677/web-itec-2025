@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Login from './pages/Login';  
 import ProductDetails from './pages/ProductDetails';
+import SignUp from './pages/SignUp';
 import { CartProvider } from './context/CartContext';
 import { ThemeProvider } from './context/ThemeContext';
 
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/product/:id" element={<ProductDetails />} />
               </Routes>
             </AnimatePresence>
